@@ -9,6 +9,6 @@ module.exports = {
   justCopy: [],
   rename: {},
   dependencies: [],
-  preInstall: () => console.log('Starting...'),
-  postInstall: () => console.log('All done!'),
+  preInstall: function(){ console.log('Starting...'); },
+  postInstall: function(){ console.log('All done!'); },
 };
