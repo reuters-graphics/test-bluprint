@@ -1,0 +1,6 @@
+{
+  "bluprint": "^0.0.1",
+  "name": "test bluprint",
+  "category": "tests",
+  "actions": []
+}
