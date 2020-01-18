@@ -2,7 +2,7 @@ module.exports = {
   bluprint: '^0.0.1',
   name: 'test bluprint',
   renderer: 'mustache',
-  category: 'tests,
+  category: 'tests',
   prompts: [],
   statics: {},
   ignore: [],
