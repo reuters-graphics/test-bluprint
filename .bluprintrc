@@ -14,5 +14,8 @@
       }
     ],
     "inject": ["Hi"]
+  }, {
+    "action": "move",
+    "paths": ["moveme/", "moved/"]
   }]
 }
