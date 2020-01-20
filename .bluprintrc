@@ -12,8 +12,7 @@
         "name": "greeting",
         "message": "Wut"
       }
-    ],
-    "inject": ["Hi"]
+    ]
   }, {
     "action": "move",
     "paths": ["moveme/", "moved/"]
