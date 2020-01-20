@@ -17,5 +17,8 @@
   }, {
     "action": "move",
     "paths": ["moveme/", "moved/"]
+  }, {
+    "action": "log",
+    "msg": "{green Congrats!} Your project is ready to go."
   }]
 }
