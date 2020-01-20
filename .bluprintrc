@@ -2,5 +2,17 @@
   "bluprint": "^0.0.1",
   "name": "test bluprint",
   "category": "tests",
-  "actions": []
+  "actions": [{
+    "action": "render",
+    "engine": "mustache",
+    "files": ["template.js"],
+    "questions": [
+      {
+        "type": "text",
+        "name": "greeting",
+        "message": "Wut"
+      }
+    ],
+    "inject": ["Hi"]
+  }]
 }
